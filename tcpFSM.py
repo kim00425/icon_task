@@ -79,6 +79,7 @@ def traverse_TCP_states(inputs):
         print(first)
         return first
     except KeyError:    #리턴되어 들어오는 값에서 다시 그 디렉터리에 없는 값이면 그냥 ERROR
+        print("ERROR")
         return "ERROR"
 
 
